@@ -17,6 +17,7 @@ Simple script to generate a daily update using an LLM
     - Run a test prompt to check if it's working: `llm hi`
 2. Edit `auto-daily-update.py` and
     - Set `FRONTEND_PATH` and `BACKEND_PATH` to the corresponding directories.
-    - Set `AUTHOR` to your git name and email (find it in `git log`).
+    - Set `AUTHOR` to your configured name in `git`.
+        - For example, if in `git log` your name appears as `Author: Blaz Korecic <blaz@niuro.io>`, `AUTHOR="Blaz"`, `AUTHOR="Blaz Korecic"` and `AUTHOR="Korecic"` will work.
 3. Run `auto-daily-update.py` whenever you want a summary of all commits in
 
