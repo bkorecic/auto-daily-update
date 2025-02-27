@@ -4,7 +4,8 @@ Simple script to generate a daily update using an LLM
 
 ## Requirements
 
-- (https://github.com/simonw/llm)[simonw/llm]: Install with `brew install llm`
+- [simonw/llm](https://github.com/simonw/llm): Install with `brew install llm`
+- Python 3
 
 ## How to use
 
