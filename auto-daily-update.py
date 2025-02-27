@@ -80,24 +80,15 @@ Jueves 27
     * Arreglados bugs pequeños.
     * Refactor en SearchResults para mayor claridad.
     * Movido el hash de colores para etiquetas a `utils/` y creado un cache global para no recalcularlos.
-
 """
 
-PROMPT = """
+PROMPT = f"""
 Commits in backend repository:
 {backend_log}
 
 Commits in frontend repository:
 {frontend_log}
 """
-
-
-
-# Print commit logs (for debugging)
-print("Commits in backend:")
-print(backend_log)
-print("Commits in frontend:")
-print(frontend_log)
 
 # Run llm with the constructed prompt
 try:
