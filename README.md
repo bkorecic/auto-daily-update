@@ -9,7 +9,7 @@ Simple script to generate a daily update using an LLM
 
 ## How to use
 
-1. Configure your favorite model in llm by following the (https://llm.datasette.io/en/stable/usage.html)[instructions].
+1. Configure your favorite model in llm by following the [instructions](https://llm.datasette.io/en/stable/usage.html).
     - **Example with `gemini-2.0-flash`:**
     - Install the required plugin: `llm install llm-gemini`
     - Add the API key: `llm keys set gemini`
